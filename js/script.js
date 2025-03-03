@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const senhaCadastrada = localStorage.getItem("senha");
             
             if (emailLogin === emailCadastrado && senhaLogin === senhaCadastrada) {
-                window.location.href = "site.html";
+                window.location.href = "index.html";
             } else {
                 alert("E-mail ou senha incorretos!");
             }
