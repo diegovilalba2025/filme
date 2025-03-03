@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
             
             if (emailRecuperacao === emailCadastrado) {
                 alert("E-mail enviado para recuperação de senha! Verifique sua caixa de entrada.");
-                window.location.href = "index.html";
+                window.location.href = "site.html";
             } else {
                 alert("E-mail não encontrado! Tente novamente.");
             }
