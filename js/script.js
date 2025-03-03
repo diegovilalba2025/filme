@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
             localStorage.setItem("email", email);
             localStorage.setItem("senha", senha);
             
-            window.location.href = "index.html";
+            window.location.href = "site.html";
         });
     }
 
