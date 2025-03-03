@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function verificarManutencao() {
         if (manutencaoAtiva) {
             // Redireciona para a página de manutenção
-            window.location.href = "../views/manutencao.html"; // Caminho relativo correto
+            window.location.href = "manutencao.html"; // Caminho relativo correto
         }
     }
 
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const senhaCadastrada = localStorage.getItem("senha");
             
             if (emailLogin === emailCadastrado && senhaLogin === senhaCadastrada) {
-                window.location.href = "../site.html";
+                window.location.href = "site.html";
             } else {
                 alert("E-mail ou senha incorretos!");
             }
