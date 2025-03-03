@@ -1,0 +1,325 @@
+/* Estilos gerais */
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background: #222;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Ajuste no espaçamento */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Fonte reduzida */
+    padding: 8px 15px;
+    background: #f70202;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background: #444;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    width: 100%;  /* Permite que a barra de pesquisa ocupe toda a largura disponível */
+    max-width: 250px; /* Limita a largura máxima para não ficar grande demais */
+  }
+  
+  /* Banner */
+  #banner {
+    text-align: center;
+    padding: 0px;
+    margin-top: 3px;
+    position: relative;
+  }
+  
+  #banner img {
+    width: 100%;
+    max-height: 80px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+    animation: moverBanner 5s infinite alternate;
+  }
+  
+  /* Animação de movimento */
+  @keyframes moverBanner {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Filmes em Destaque */
+  #filmes-em-destaque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .filme {
+    width: 180px;
+    text-align: center;
+    background: #222;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .filme img {
+    width: 100%;
+    height: 240px;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+    animation: moverCapa 5s infinite alternate;
+  }
+  
+  @keyframes moverCapa {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .filme img:hover {
+    transform: scale(1.1);
+  }
+  
+  .filme p {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  button:hover {
+    background: darkred;
+  }
+  
+  /* Seção de Categorias */
+  #categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .categoria {
+    text-align: center;
+  }
+  
+  .categoria h2 {
+    margin-bottom: 10px;
+  }
+  
+  .categoria-filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Seção Sobre */
+  #sobre {
+    text-align: center;
+    padding: 20px;
+    color: rgb(209, 15, 15);
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    margin-top: 20px;
+  }
+  
+  /* Modal de vídeo */
+  .video-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .video-modal-content {
+      background: #222;
+      padding: 20px;
+      border-radius: 8px;
+      position: relative;
+      max-width: 800px;
+      max-height: 600px;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  button.fechar-video {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: red;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+  }
+  
+  button.fechar-video:hover {
+      background: darkred;
+  }
+  
+  video {
+      width: 100%;
+      height: auto;
+  }
+  
+  /* Responsividade para dispositivos móveis */
+  @media (max-width: 768px) {
+    /* Reduz o tamanho dos filmes */
+    .filme {
+      width: 150px;
+    }
+  
+    .filme img {
+      height: 200px;
+    }
+  
+    /* Ajusta os botões de navegação */
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li a {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  
+    /* Ajusta o banner */
+    #banner img {
+      max-height: 150px;
+    }
+  
+    /* Ajuste da barra de pesquisa */
+    .search-bar {
+      width: 100%;
+      max-width: 200px;
+    }
+  
+    /* Ajuste da seção sobre */
+    #sobre {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    /* Ajusta a exibição de categorias */
+    .categoria-filmes {
+      gap: 10px;
+    }
+  
+    /* Ajusta os botões e elementos para uma tela menor */
+    button {
+      padding: 6px;
+    }
+  }
+  
+  /* Responsividade para telas pequenas (celulares) */
+  @media (max-width: 480px) {
+    /* Reduz o tamanho das imagens dos filmes */
+    .filme {
+      width: 120px;
+    }
+  
+    .filme img {
+      height: 180px;
+    }
+  
+    /* Barra de navegação */
+    nav ul {
+      gap: 5px;
+    }
+  
+    nav ul li a {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  
+    /* Ajuste da seção sobre */
+    #sobre {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    /* Ajuste do banner */
+    #banner img {
+      max-height: 100px;
+    }
+  
+    /* Ajuste da barra de pesquisa */
+    .search-bar {
+      width: 100%;
+      max-width: 180px;
+    }
+  }
+  /* Estilo do botão de Sair */
+  .btn-sair {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .btn-sair:hover {
+    background-color: #e53935;
+  }
