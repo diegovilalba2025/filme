@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Definindo a variável para indicar se o site está em manutenção
-    const manutencaoAtiva = false; // Altere para false quando o site estiver fora de manutenção
+    const manutencaoAtiva = true; // Altere para false quando o site estiver fora de manutenção
 
     // Função para verificar se o site está em manutenção
     function verificarManutencao() {
