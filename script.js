@@ -145,15 +145,53 @@ document.addEventListener("DOMContentLoaded", () => {
         video:"https://drive.google.com/file/d/13UxLqVin7sMvISwangXnzgxaEHb0jQOl/preview",
         sinopse:"O Quarto de Guerra é um filme que conta a história de Elizabeth e Tony, um casal em crise de relacionamento. A filha pequena percebe que ambos estão à beira do divórcio, mas eles não conseguem chegar a um acordo. Clara, uma anciã amorosa e cheia de sabedoria, apresenta seu “quarto de guerra” para ajudar Elizabeth. O local é um cômodo de sua casa onde trava batalhas de oração e ensina a jovem esposa a usar táticas e armas espirituais para vencer a luta e reconstruir seu lar",
         categoria:"drama"
-      }
+      },
     
     
+        {titulo:"Acompanhante Perfeito",
+         imagem:"imagens/acompanhante.jpg",
+         video:"https://drive.google.com/file/d/1-EcoNoAnoSByIGUv8rPkJ019HHZHE_6l/preview",
+         sinopse:"Em Acompanhante Perfeita, Iris (Sophie Thatcher) e Josh (Jack Quaid) vivem um romance digno de cinema. Após se conhecerem em um mercado, os dois rapidamente se apaixonam e embarcam em um relacionamento intenso. Para aproveitar um fim de semana especial, eles viajam para uma luxuosa casa de campo com amigos, buscando descanso e diversão. No entanto, o que deveria ser um retiro tranquilo se transforma em um verdadeiro pesadelo quando uma revelação inesperada muda tudo: Iris é, na verdade, um robô. A descoberta desencadeia uma série de eventos caóticos, com perseguições, violência e segredos vindo à tona. Em meio ao terror, Iris, uma máquina altamente sofisticada, precisa lutar para sobreviver e entender sua própria existência. Misturando suspense, terror e comédia, o filme aborda temas como idealizações românticas e relações de gênero, explorando os limites entre humano e máquina. Enquanto a tensão aumenta, a grande questão permanece: será que alguém sairá vivo desse fim de semana?",
+         categoria:"drama"
+        },
+        {
+            titulo:" Steve Jobs",
+            imagem:"imagens/job.jpg",
+            video:"https://drive.google.com/file/d/1jmBb96WKbXpI8Cn2zA0Oa3Yca-KuGV26/preview",
+            sinopse:"Com roteiro de Aaron Sorkin (A Rede Social), o filme de Danny Boyle procura traçar uma análise da vida de Steve Jobs a partir de três blocos, cada um centrado no momento do lançamento de produtos caros à carreira do magnata da Apple",
+            categoria:"acao",
+        },
+         { titulo:"O Jogo da Imitação",
+           imagem:"imagens/jogo.jpg",
+           video:"https://drive.google.com/file/d/1zEecBLbmh1cn0GSL1QKiBDclfvm1GvEw/preview",
+           sinopse:"“O Jogo da Imitação” é um drama biográfico lançado em 2014, sob a direção de Morten Tyldum. O filme retrata a vida de Alan Turing, um matemático e criptoanalista britânico, que desempenhou um papel crucial na decifração dos códigos da máquina Enigma durante a Segunda Guerra Mundial. Com uma poderosa performance de Benedict Cumberbatch no papel principal, a narrativa explora não apenas os desafios intelectuais enfrentados por Turing, mas também suas lutas pessoais em uma época de intolerância. ",
+           categoria:"acao",
+         },
+         { titulo:"Covil de Ladroes",
+            imagem:"imagens/covil.jpg",
+            video:"https://drive.google.com/file/d/1G8E6XC9bmDlqejvXPMuCt7av0O2-Xy1x/preview",
+            sinopse:"Em Los Angeles, capital dos roubos a banco, um banho de sangue coloca em interseção a vida de dois grupos: a radical unidade de elite do departamento de polícia local, liderada pelo desmedido Nick (Gerard Butler), e a equipe de assaltantes de banco mais arrojada em atividade. Enquanto os criminosos planejam um ataque ambicioso até então tido como impossível, os homens da lei apertam o cerco pelo elo aparentemente mais fraco da gangue.",
+            categoria:"acao",
+          },
+   
+   
   
-  
-  
-  
-  
-  
+          { titulo:"",
+            imagem:"",
+            video:"",
+            sinopse:"",
+            categoria:"",
+          },
+   
+   
+          { titulo:"",
+            imagem:"",
+            video:"",
+            sinopse:"",
+            categoria:"",
+          },
+   
+   
   
   
   
@@ -224,7 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     // Exibir filmes em destaque por padrão
-    adicionarFilmes(containerFilmes, filmes.filter(filme => ["acao", "drama", "terror", "Gospel", "aventura", "comedia"].includes(filme.categoria)));
+    adicionarFilmes(containerFilmes, filmes.filter(filme => ["acao", "drama", "terror", "Gospel", "aventura", "comedia","Ficção Científica"].includes(filme.categoria)));
   
   
     // Evento de clique nos botões de navegação
@@ -236,7 +274,7 @@ document.addEventListener("DOMContentLoaded", () => {
         adicionarFilmes(document.getElementById("comedia-filmes"), filmes.filter(filme => filme.categoria === "comedia"));
         adicionarFilmes(document.getElementById("Terror-filmes"), filmes.filter(filme => filme.categoria === "terror"));
         adicionarFilmes(document.getElementById("aventura-filmes"), filmes.filter(filme => filme.categoria === "aventura"));
-        adicionarFilmes(document.getElementById("Gospel-filmes"), filmes.filter(filme => filme.categoria === "Gospel"));
+        adicionarFilmes(document.getElementById("Ficção Científica-filmes"), filmes.filter(filme => filme.categoria === "Ficção Científica"));
     });
   
     document.getElementById("btn-sobre").addEventListener("click", () => {
