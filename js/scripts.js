@@ -66,7 +66,12 @@ document.addEventListener("DOMContentLoaded", () => {
         categoria:  "drama" // Categoria do filme
       },
       
-      
+      { titulo:"O Jogo da Imitação",
+        imagem:"imagens/jogo.jpg",
+        video:"https://drive.google.com/file/d/1zEecBLbmh1cn0GSL1QKiBDclfvm1GvEw/preview",
+        sinopse:"“O Jogo da Imitação” é um drama biográfico lançado em 2014, sob a direção de Morten Tyldum. O filme retrata a vida de Alan Turing, um matemático e criptoanalista britânico, que desempenhou um papel crucial na decifração dos códigos da máquina Enigma durante a Segunda Guerra Mundial. Com uma poderosa performance de Benedict Cumberbatch no papel principal, a narrativa explora não apenas os desafios intelectuais enfrentados por Turing, mas também suas lutas pessoais em uma época de intolerância. ",
+        categoria:"Ficção Científica",// Categoria do filme
+      },
   
   
   
@@ -82,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
   
     const containerFilmes = document.getElementById("filmes-em-destaque");
-    const containerCategorias = document.getElementById("categoria");
+    const containerCategorias = document.getElementById("categorias");
     const containerSobre = document.getElementById("sobre");
   
     // Função para adicionar filmes a uma seção
@@ -133,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     // Inicializa os filmes em destaque com Interestelar, Kraven e Despertar de um Assassino, Eu sou a lenda ,comandante na altura, Mufasa: O Rei Leão incluido
-    adicionarFilmes(containerFilmes, filmes.filter(filme => filme.categoria === "acao" || filme.categoria === "drama" || filme.categoria === "comedia" || filme.categoria === "aventura"));
+    adicionarFilmes(containerFilmes, filmes.filter(filme => filme.categoria === "acao" || filme.categoria === "drama" || filme.categoria === "comedia" || filme.categoria === "FicçãoCientífica"));
   
   
     // Função para exibir a seção correta
@@ -162,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const filmesDeAcao = filmes.filter(filme => filme.categoria === "acao");
       const filmesDeDrama = filmes.filter(filme => filme.categoria === "drama");
       const filmesDeComedia = filmes.filter(filme => filme.categoria === "comedia");
-      const filmesDeAventura = filmes.filter(filme => filme.categoria === "aventura");
+      const filmesDeFicçãoCientífica = filmes.filter(filme => filme.categoria === "Ficção Científica");
   
   
   
@@ -172,7 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
       adicionarFilmes(document.getElementById('acao-filmes'), filmesDeAcao);
       adicionarFilmes(document.getElementById('drama-filmes'), filmesDeDrama);
       adicionarFilmes(document.getElementById('comedia-filmes'), filmesDeComedia);
-      adicionarFilmes(document.getElementById('aventura-filmes'), filmesDeAventura);
+      adicionarFilmes(document.getElementById('Ficção Científica-filmes'), filmesDeFicçãoCientífica);
   
   
   
