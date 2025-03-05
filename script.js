@@ -130,14 +130,24 @@ document.addEventListener("DOMContentLoaded", () => {
       sinopse: "Sam é uma jovem que sonha em viver de música. Quando é forçada a se mudar e a entrar num coro gospel, ela precisa ajudar seus companheiros a ganhar uma competição..",
       categoria:  "drama" // Categoria do filme
     },
+
+    {
+        titulo: "Acertando O Tom",
+        imagem: "imagens/auto.jpg",// Coloque a imagem correta para o filme
+        video: "https://drive.google.com/file/d/1euL4BkMYj9GZfYDnHBc_EevunJm4AdH7/preview",//Link para preview do vídeo
+        sinopse: " Após 20 anos desaparecido, João Grilo retorna para a cidade de Taperoá e reencontra com seu fiel escudeiro Chicó, que carrega adiante a história de que Nossa Senhora operou um milagre e ressuscitou o amigo. João Grilo, então, agora é considerado uma espécie de santo e seu status de celebridade chama a atenção especial dos dois políticos mais poderosos da região, querendo utilizá-lo como cabo eleitoral. Vendo toda essa comoção como uma oportunidade para finalmente enriquecer, João Grilo organiza um de seus famosos trambiques. Pena que nada sai como o planejado e o passado retorna e se repete para o sertanejo...",
+        categoria:  "comedia" // Categoria do filme
+      },
+      
+      {   
+        titulo:"Quarto de Guerra",
+        imagem:"imagens/quarto.jpg",
+        video:"https://drive.google.com/file/d/13UxLqVin7sMvISwangXnzgxaEHb0jQOl/preview",
+        sinopse:"O Quarto de Guerra é um filme que conta a história de Elizabeth e Tony, um casal em crise de relacionamento. A filha pequena percebe que ambos estão à beira do divórcio, mas eles não conseguem chegar a um acordo. Clara, uma anciã amorosa e cheia de sabedoria, apresenta seu “quarto de guerra” para ajudar Elizabeth. O local é um cômodo de sua casa onde trava batalhas de oração e ensina a jovem esposa a usar táticas e armas espirituais para vencer a luta e reconstruir seu lar",
+        categoria:"drama"
+      }
     
     
-  
-  
-    
-    
-  
-  
   
   
   
