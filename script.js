@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
       imagem: "imagens/mufasa.jpg",
       video: "https://drive.google.com/file/d/1LY8mGVBUsvO8rgcNH0eQUbPICJvZTCFz/preview",
       sinopse: "Prólogo do live action de Rei Leão, produzido pela Disney e dirigido por Barry Jenkins, o longa contará a história de Mufasa e Scar antes de Simba. A trama tem a ajuda de Rafiki, Timão e Pumba, que juntos contam a lenda de Mufasa à jovem filhote de leão Kiara, filha de Simba e Nala. Narrado através de flashbacks, a história apresenta Mufasa como um filhote órfão, perdido e sozinho até que ele conhece um simpático leão chamado Taka – o herdeiro de uma linhagem real. O encontro ao acaso dá início a uma grande jornada de um grupo extraordinário de deslocados em busca de seu destino, além de revelar a ascensão de um dos maiores reis das Terras do Orgulho..",
-      categoria:  "aventura"
+      categoria:  "acao"
     },
     
     
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
 
     {
-        titulo: "Acertando O Tom",
+        titulo: "Auto da Compadecida 2",
         imagem: "imagens/auto.jpg",// Coloque a imagem correta para o filme
         video: "https://drive.google.com/file/d/1euL4BkMYj9GZfYDnHBc_EevunJm4AdH7/preview",//Link para preview do vídeo
         sinopse: " Após 20 anos desaparecido, João Grilo retorna para a cidade de Taperoá e reencontra com seu fiel escudeiro Chicó, que carrega adiante a história de que Nossa Senhora operou um milagre e ressuscitou o amigo. João Grilo, então, agora é considerado uma espécie de santo e seu status de celebridade chama a atenção especial dos dois políticos mais poderosos da região, querendo utilizá-lo como cabo eleitoral. Vendo toda essa comoção como uma oportunidade para finalmente enriquecer, João Grilo organiza um de seus famosos trambiques. Pena que nada sai como o planejado e o passado retorna e se repete para o sertanejo...",
@@ -173,14 +173,12 @@ document.addEventListener("DOMContentLoaded", () => {
             sinopse:"Em Los Angeles, capital dos roubos a banco, um banho de sangue coloca em interseção a vida de dois grupos: a radical unidade de elite do departamento de polícia local, liderada pelo desmedido Nick (Gerard Butler), e a equipe de assaltantes de banco mais arrojada em atividade. Enquanto os criminosos planejam um ataque ambicioso até então tido como impossível, os homens da lei apertam o cerco pelo elo aparentemente mais fraco da gangue.",
             categoria:"acao",
           },
-   
-   
   
-          { titulo:"",
-            imagem:"",
-            video:"",
-            sinopse:"",
-            categoria:"",
+          { titulo:"Oficina do Diabo 2025",
+            imagem:"imagens/oficina.jpg",
+            video:"https://drive.google.com/file/d/1M8LgqF9OO3CRBV-bCikSkUokVizMKWGr/preview",
+            sinopse:" Após tentar a vida como músico na cidade grande, Pedro fracassa e volta, sem rumo, para a casa de sua mãe no interior. O demônio Natan levou Pedro a escolhas erradas, no entanto, suas tentações não conseguiram desvirtuá-lo completamente. Decididos a condenar a alma de Pedro ao Inferno, a Oficina convoca o experiente demônio Fausto para guiar Natan em sua missão.",
+            categoria:"drama",
           },
    
    
@@ -191,7 +189,12 @@ document.addEventListener("DOMContentLoaded", () => {
             categoria:"",
           },
    
-   
+   {titulo:"",
+    imagem:"",
+    video:"",
+    sinopse:"",
+    categoria:"",
+ },
   
   
   
