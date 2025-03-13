@@ -182,18 +182,18 @@ document.addEventListener("DOMContentLoaded", () => {
           },
    
    
-          { titulo:"",
-            imagem:"",
+          { titulo:" Até o Último Homem",
+            imagem:"imagens/ate.jpg",
             video:"",
-            sinopse:"",
-            categoria:"",
+            sinopse:"Desmond T. Doss, foi o médico do Exército Americano da Segunda Guerra Mundial, que serviu durante a Batalha de Okinawa, se recusando a matar pessoas, tornando-se o primeiro homem da história americana a receber a Medalha de Honra sem disparar um tiro.",
+            categoria:"acao",
           },
    
-   {titulo:"",
-    imagem:"",
-    video:"",
-    sinopse:"",
-    categoria:"",
+   {titulo:"Live ao vivo",
+    imagem:"imagens/jogo-de-futebol.jpg",
+    video:"https://www.twitch.tv/diegovilalba20140",
+    sinopse:" futebol sua diversao",
+    categoria:"acao",
  },
   
   
