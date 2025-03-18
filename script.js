@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
    
           { titulo:" Até o Último Homem",
             imagem:"imagens/ate.jpg",
-            video:"",
+            video:"https://drive.google.com/file/d/1ji-JAeeXfXi079gAhyD7o5hpob0pysql/preview",
             sinopse:"Desmond T. Doss, foi o médico do Exército Americano da Segunda Guerra Mundial, que serviu durante a Batalha de Okinawa, se recusando a matar pessoas, tornando-se o primeiro homem da história americana a receber a Medalha de Honra sem disparar um tiro.",
             categoria:"acao",
           },
@@ -196,9 +196,84 @@ document.addEventListener("DOMContentLoaded", () => {
     categoria:"acao",
  },
   
+  {titulo:"Padre ",
+   imagem:"imagens/padre.jpg",
+   video:"https://drive.google.com/file/d/1Q2SQ0gryFWUnCX-hWvDEQ-KIXyPUqs3a/preview",
+   sinopse:"Há séculos humanos e vampiros estão em guerra, o que fez com que o planeta fosse devastado. Padre (Paul Bettany) é um guerreiro lendário que participou da guerra com os vampiros. Hoje ele vive na obscuridade, numa das cidades controladas pela igreja. Ele volta à ativa quando Lucy Pace (Lily Collins) é sequestrada por um grupo de vampiros liderados por Black Hat (Karl Urban). Ao lado do xerife Hicks (Cam Gigandet) e de Priestess (Maggie Q), uma integrante da legião de matadores de vampiros, Padre parte para resgatá-la.",
+   categoria:"drama",
+  },
   
-  
-  
+  {titulo:" Velozes e Furioso 5",
+    imagem:"imagens/furioso 5.jpg",
+    video:"https://drive.google.com/file/d/1JtOKtaDTPGWJNJ_hWRhT4KQ8ASti-Kfd/preview",
+    sinopse:"Em Velozes & Furiosos 5: Operação Rio, Dominic Toretto (Vin Diesel) foi resgatado da prisão por sua irmã Mia (Jordana Brewster) e Brian O'Conner (Paul Walker), que realizam um ousado resgate sobre rodas. Logo em seguida, ele desaparece. Brian e Mia vão até o Rio de Janeiro, onde encontram Vince (Matt Schulze). Ele propõe ao casal o roubo de carros que estão sendo levados em um trem, algo que, segundo ele, será uma operação simples que renderá um bom lucro. Durante a operação, Dominic reaparece e diz à irmã que os planos mudaram. Ela então leva um dos carros a um esconderijo em plena favela carioca, deixando Dominic e Brian enfrentando policiais e bandidos. Ao desmontar o carro, o trio descobre que ele contém um chip com todas as operações ilegais de Hernan Reis (Joaquim de Almeida), incluindo onde guarda o dinheiro arrecadado. É o suficiente para que eles elaborem um plano para roubar a fortuna de Reis, contando com a ajuda de vários amigos.",
+    categoria:"acao",
+   },
+   
+   {titulo:"Velozes e Furioso 7",
+    imagem:"imagens/furioso.jpg",
+    video:"https://drive.google.com/file/d/1v80Wgsy-yYKI0v7y7CqG7KfkYHbwnrG7/preview",
+    sinopse:"Velozes e Furiosos 7 acompanha Dom (Vin Diesel), Brian (Paul Walker), Letty (Michelle Rodriguez) e o resto da equipe após os acontecimentos em Londres. Apesar de terem suas chances de voltar para os Estados Unidos e recomeçarem suas vidas, a tranquilidade do grupo é destruída quando Deckard Shaw (Jason Statham), um assassino profissional, quer vingança pela morte de seu irmão. Agora, a equipe tem que se reunir para impedir este novo vilão. Mas dessa vez, não é só sobre ser veloz. A luta é pela sobrevivência.",
+    categoria:"acao",
+   },
+   
+   {titulo:"Velozes e Furioso 9",
+    imagem:"imagens/furioso 9.jpg",
+    video:"https://drive.google.com/file/d/1BlCoV-orPVyWuDp7SeTiMEIJsGpbB7Me/preview",
+    sinopse:"Em Velozes & Furiosos 9, dois anos após o confronto com a ciber-terrorista Cipher - no filme Velozes e Furiosos 8 - Dominic Toretto (Vin Diesel) - agora aposentado - e Letty (Michelle Rodriguez) vivem uma vida pacata ao lado de seu filho Brian. Mas a vida dos dois é logo interrompida quando Roman Pearce, Tej Parker e Ramsey chegam com notícias de que, pouco depois de prender Cipher (Charlize Theron), o avião de Mr. Nobody foi atacado por agentes e sequestraram Cipher, precisando da ajuda dele para investigar mais afundo. Acompanhando eles em uma missão, o grupo logo acha nos escombros parte de um dispositivo chamado Projeto Aries. A calmaria é dissipada quando o irmão desaparecido de Dom retorna e rouba o dispositivo deles com um grupo altamente treinado. Jakob (John Cena), um assassino habilidoso e excelente motorista, está trabalhando ao lado de Cipher. Para enfrentá-los, Toretto vai precisar reunir sua equipe novamente, inclusive Han (Sung Kang), que todos acreditavam estar morto.",
+    categoria:"acao",
+   },
+   
+   {titulo:"Velozes e Furioso 10",
+    imagem:"imagens/furioso 10.jpg",
+    video:"https://drive.google.com/file/d/1QvGkX1UwYJ4K2kMUmxHELpJbBtro2Wdh/preview",
+    sinopse:"No décimo filme da série Velozes & Furiosos e último da nova trilogia (Velozes 8, 9 e 10), ao longo de muitas missões e contra probabilidades que pareciam impossíveis, Dom Toretto (Vin Diesel) e sua família foram mais espertos e superaram todos os inimigos em seu caminho. Agora, eles devem desafiar o adversário mais letal que já enfrentaram. Alimentada pela vingança, uma ameaça terrível emerge das sombras do passado na forma de Dante (Jason Momoa), para destruir o mundo de Toretto e destruir tudo - e todos - que ele ama. Ele então, comandando novamente a equipe de corredores mais conhecida do mundo, encara mais uma difícil missão sobre quatro rodas. O fim da estrada começa e Velozes & Furiosos 10 lança os capítulos finais de uma das franquias globais mais famosas e populares do cinema, agora em sua terceira década e ainda forte com o mesmo elenco e personagens centrais de quando começou.",
+    categoria:"acao",
+   },
+   
+   {titulo:" Louvor ",
+    imagem:"imagens/louvor.jpg",
+    video:"https://youtu.be/NPRXrgSUmBI?si=GJ2eSqLzmQkDvxwQ",
+    sinopse:"Fortalecimento Espiritual",
+    categoria:"acao",
+   },
+   
+   {titulo:"",
+    imagem:"",
+    video:"",
+    sinopse:"",
+    categoria:"",
+   },
+   
+   {titulo:"",
+    imagem:"",
+    video:"",
+    sinopse:"",
+    categoria:"",
+   },
+   
+   {titulo:"",
+    imagem:"",
+    video:"",
+    sinopse:"",
+    categoria:"",
+   },
+   
+   {titulo:"",
+    imagem:"",
+    video:"",
+    sinopse:"",
+    categoria:"",
+   },
+   
+   {titulo:"",
+    imagem:"",
+    video:"",
+    sinopse:"",
+    categoria:"",
+   },
+   
+            
   
   
   
