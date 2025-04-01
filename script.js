@@ -238,11 +238,11 @@ document.addEventListener("DOMContentLoaded", () => {
     categoria:"acao",
    },
    
-   {titulo:"",
-    imagem:"",
-    video:"",
-    sinopse:"",
-    categoria:"",
+   {titulo:"Eli",
+    imagem:"imagens/eli.jpg",
+    video:"https://drive.google.com/file/d/1Vl6FQaBYEmiGQ30mf0vtnNxSEi6eb4wz/preview",
+    sinopse:"Em um futuro não muito distante, 30 anos após o término da última guerra. Eli (Denzel Washington) é um homem solitário, que percorre a América do Norte devastada. Ele apenas deseja paz, mas ao ser desafiado não foge à luta. Seu principal objetivo é proteger a esperança da humanidade, a qual guarda consigo há 30 anos, sendo que para tanto faz o que for preciso para sobreviver. O único que compreende seu intento é Carnegie (Gary Oldman), o autoproclamado déspota de uma cidade repleta de ladrões. Ao mesmo tempo Solara (Mila Kunis), a filha da companheira de Carnegie (Jennifer Beals), fica fascinada com Eli pela possibilidade de que ele lhe mostre o que há além dos domínios que conhece. Só que Carnegie está disposto a impedir sua cruzada, para recuperar Solara e também conseguir o valioso objeto que Eli protege.",
+    categoria:"acao",
    },
    
    {titulo:"",
