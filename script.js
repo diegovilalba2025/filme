@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", () => {
    
    {titulo:"Hitman 47",
     imagem:"imagens/htiman.jpg",
-    video:"",
+    video:"https://drive.google.com/file/d/1-yFKCVvP7-qmHhKhTnMP95QCwj-mz4YV/preview",
     sinopse:"O agente 47 (Timothy Olyphant) foi criado para ser um exímio matador de aluguel. Suas armas mais poderosas são a ousadia e o orgulho que tem ao executar cada trabalho. O número 47 é uma referência aos dois últimos dígitos do código de barras que tem tatuado em sua nuca. Um dia ele é envolvido em um golpe político, o que faz com que seja perseguido pela Interpol e por militares russos. Enquanto foge pela Europa Oriental ele tenta descobrir quem organizou este plano contra ele, ao mesmo tempo em que precisa lidar com as lembranças que uma bela garota lhe desperta.",
     categoria:"acao",
    },
